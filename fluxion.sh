@@ -39,9 +39,9 @@ FLUXIONEnable5GHZ=0
 # ============================================================ #
 # ================= < Script Sanity Checks > ================= #
 # ============================================================ #
-if [ $EUID -ne 0 ]; then # Super User Check
-  echo -e "\\033[31mAborted, please execute the script as root.\\033[0m"; exit 1
-fi
+#if [ $EUID -ne 0 ]; then # Super User Check
+#  echo -e "\\033[31mAborted, please execute the script as root.\\033[0m"; exit 1
+#fi
 
 # ===================== < XTerm Checks > ===================== #
 # TODO: Run the checks below only if we're not using tmux.
